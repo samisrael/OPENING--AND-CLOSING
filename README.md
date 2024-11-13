@@ -46,7 +46,8 @@ closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
 
 # Step 6: Display the results using matplotlib for better visualization
 plt.figure(figsize=(12, 8))
-
+```
+```python
 # Original image with noise
 plt.subplot(1, 3, 1)
 plt.title('Original Image with Noise')
